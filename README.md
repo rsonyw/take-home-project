@@ -1,6 +1,12 @@
-# take-home-project
+# Take Home Project
 
-This template should help get you started developing with Vue 3 in Vite.
+Terdapat 2 tugas pada project ini yaitu Form dan Dashboard.
+
+Halaman utama project ini adalah halaman tugas Form.
+
+Halaman Dashboard dapat diakses ketika menekan button home pada sidebar.
+
+Untuk kembali ke halaman Form, tekan button kanan pada navbar Dashboard.
 
 ## Recommended IDE Setup
 
@@ -26,6 +32,10 @@ npm install bootstrap@5.3.3
 
 ```sh
 npm install bootstrap-icons
+```
+
+```sh
+npm install --save vue3-circle-progress
 ```
 
 ### Compile and Hot-Reload for Development
