@@ -32,7 +32,8 @@ import Sidebar from '../components/Sidebar.vue';
     flex-direction: row;
     justify-content: space-between;
     flex-grow: 1;
-    padding: 20px;
+    padding: 0px 20px;
+    margin-top: -10px;
 }
 
 .content {
@@ -62,7 +63,7 @@ h1 {
 .item-breadcrumb {
     font-weight: 400;
     font-size: 14px;
-    line-height: 19.07px;
+    /* line-height: 19.07px; */
     letter-spacing: 0.0025em;
     text-align: left;
     color: #4a8394;
@@ -71,7 +72,6 @@ h1 {
 .item-breadcrumb.active {
     font-weight: 400;
     font-size: 14px;
-
     letter-spacing: 0.0025em;
     text-align: left;
     color: #4a8394;

@@ -22,22 +22,6 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-```sh
-npm install axios
-```
-
-```sh
-npm install bootstrap@5.3.3
-```
-
-```sh
-npm install bootstrap-icons
-```
-
-```sh
-npm install --save vue3-circle-progress
-```
-
 ### Compile and Hot-Reload for Development
 
 ```sh

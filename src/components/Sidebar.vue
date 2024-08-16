@@ -3,22 +3,22 @@
 <template>
     <div class="sidebar">
         <div class="sidebar-menu">
-            <a class="sidebar-btn">
+            <router-link to="/dashboard" class="sidebar-btn">
                 <img src="../assets/home.svg" alt="home" />
-            </a>
-            <a class="sidebar-btn active">
+            </router-link>
+            <router-link to="/" class="sidebar-btn active">
                 <img src="../assets/file.svg" alt="file" />
-            </a>
+            </router-link>
         </div>
     </div>
 </template>
 
 <style scoped>
 .sidebar {
-    position: relative;
+    /* position: relative; */
     width: 68px;
     background-color: #ffffff;
-    height: 900px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -9,3 +9,7 @@
 .form-input {
     width: 268px;
 }
+
+label {
+    font-weight: 500;
+}
